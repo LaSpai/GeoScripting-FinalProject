@@ -1,4 +1,3 @@
-setwd("/home/user/git/geoScripting/GeoScripting-FinalProject/data/Plot5")
 HyperClass <- function(Plot) {
 	#Plot <- brick(filename)
 	NAvalue(Plot) <- 0
@@ -12,7 +11,5 @@ HyperClass <- function(Plot) {
 	valuetable$class [rNA==1] <- NA
 	classes <- raster(Plot)
 	classes <- setValues(classes,valuetable$class)
-	#cols = c("dark green","light green","dark blue")
-	#plot(classes, col = cols, legend = FALSE)
 	return (classes)
 	}

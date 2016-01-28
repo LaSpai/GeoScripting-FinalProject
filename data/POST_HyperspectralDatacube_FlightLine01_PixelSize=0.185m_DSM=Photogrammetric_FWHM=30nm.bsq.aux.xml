@@ -41,6 +41,7 @@
     <MDI key="Band_39">640.00000 Nanometers</MDI>
     <MDI key="Band_3">460.00000 Nanometers</MDI>
     <MDI key="Band_3">460.00000 Nanometers</MDI>
+    <MDI key="Band_3">460.00000 Nanometers</MDI>
     <MDI key="Band_40">645.00000 Nanometers</MDI>
     <MDI key="Band_41">650.00000 Nanometers</MDI>
     <MDI key="Band_42">655.00000 Nanometers</MDI>
@@ -51,6 +52,7 @@
     <MDI key="Band_47">680.00000 Nanometers</MDI>
     <MDI key="Band_48">685.00000 Nanometers</MDI>
     <MDI key="Band_49">690.00000 Nanometers</MDI>
+    <MDI key="Band_4">465.00000 Nanometers</MDI>
     <MDI key="Band_4">465.00000 Nanometers</MDI>
     <MDI key="Band_4">465.00000 Nanometers</MDI>
     <MDI key="Band_50">695.00000 Nanometers</MDI>
@@ -65,6 +67,7 @@
     <MDI key="Band_59">740.00000 Nanometers</MDI>
     <MDI key="Band_5">470.00000 Nanometers</MDI>
     <MDI key="Band_5">470.00000 Nanometers</MDI>
+    <MDI key="Band_5">470.00000 Nanometers</MDI>
     <MDI key="Band_60">745.00000 Nanometers</MDI>
     <MDI key="Band_61">750.00000 Nanometers</MDI>
     <MDI key="Band_62">755.00000 Nanometers</MDI>
@@ -75,6 +78,7 @@
     <MDI key="Band_67">780.00000 Nanometers</MDI>
     <MDI key="Band_68">785.00000 Nanometers</MDI>
     <MDI key="Band_69">790.00000 Nanometers</MDI>
+    <MDI key="Band_6">475.00000 Nanometers</MDI>
     <MDI key="Band_6">475.00000 Nanometers</MDI>
     <MDI key="Band_6">475.00000 Nanometers</MDI>
     <MDI key="Band_70">795.00000 Nanometers</MDI>
@@ -89,6 +93,7 @@
     <MDI key="Band_79">840.00000 Nanometers</MDI>
     <MDI key="Band_7">480.00000 Nanometers</MDI>
     <MDI key="Band_7">480.00000 Nanometers</MDI>
+    <MDI key="Band_7">480.00000 Nanometers</MDI>
     <MDI key="Band_80">845.00000 Nanometers</MDI>
     <MDI key="Band_81">850.00000 Nanometers</MDI>
     <MDI key="Band_82">855.00000 Nanometers</MDI>
@@ -101,6 +106,7 @@
     <MDI key="Band_89">890.00000 Nanometers</MDI>
     <MDI key="Band_8">485.00000 Nanometers</MDI>
     <MDI key="Band_8">485.00000 Nanometers</MDI>
+    <MDI key="Band_8">485.00000 Nanometers</MDI>
     <MDI key="Band_90">895.00000 Nanometers</MDI>
     <MDI key="Band_91">900.00000 Nanometers</MDI>
     <MDI key="Band_92">905.00000 Nanometers</MDI>
@@ -111,6 +117,7 @@
     <MDI key="Band_97">930.00000 Nanometers</MDI>
     <MDI key="Band_98">935.00000 Nanometers</MDI>
     <MDI key="Band_99">940.00000 Nanometers</MDI>
+    <MDI key="Band_9">490.00000 Nanometers</MDI>
     <MDI key="Band_9">490.00000 Nanometers</MDI>
     <MDI key="Band_9">490.00000 Nanometers</MDI>
     <MDI key="wavelength_units">Nanometers</MDI>
