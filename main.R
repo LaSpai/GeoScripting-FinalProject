@@ -8,7 +8,9 @@ library(raster)
 library(randomForest)
 library(dplyr)
 library (graphics)
-library(leaflet)
+
+
+
 
 #set working directory
 setwd("/home/user/git/geoScripting/GeoScripting-FinalProject/data/")
@@ -35,7 +37,8 @@ DSMresampled
 Hyperspec
 
 #Next draw a polygon (Area Of Interest). This polygon will be used to crop 
-plotRGB(Hyperspec,43,23,12,stretch = "hist")
+plot(DSMresampled,main = "Choose AOI")
+plotRGB(Hyperspec,43,23,12,stretch = "hist",add=TRUE, alpha = 0, bgalpha =140)
 SelectAOI <- drawExtent(show = TRUE, col="red")
 
 #This function crops the datasets in the boundaries set by the SelectAOI 
@@ -43,6 +46,7 @@ SelectAOI <- drawExtent(show = TRUE, col="red")
 #The first input should be the result of the DSM_HyperPreprocessing function,
 #the second is the original Hyperspectal image and the third is the SelectAOI rectangle.
 source("/home/user/git/geoScripting/GeoScripting-FinalProject/R/GapArea.R")
+source("/home/user/git/geoScripting/GeoScripting-FinalProject/R/NDVI.R")
 CroppedDatasets <- GapArea(DSMresampled,Hyperspec,SelectAOI)
 
 #The CroppedDatasets variable contains a list [AOI_DSM, AOI_Hyper, AOI_NDVI]. So we can decompose this list 
@@ -115,7 +119,6 @@ plot(PCA, type='l')
 summary(PCA)
 
 #NDVI calculation
-source("/home/user/git/geoScripting/GeoScripting-FinalProject/R/NDVI.R")
 NDVI <- Ndvi(Hyperspec)
 
 #Plot Result

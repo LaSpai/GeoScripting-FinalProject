@@ -1,0 +1,26 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <CategoryNames>
+      <Category></Category>
+      <Category>brightVeg</Category>
+      <Category>darkVeg</Category>
+      <Category>shadow</Category>
+    </CategoryNames>
+    <Histograms>
+      <HistItem>
+        <HistMin>0.6666666666666666</HistMin>
+        <HistMax>3.333333333333333</HistMax>
+        <BucketCount>3</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>12811|97374|231290</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">3</MDI>
+      <MDI key="STATISTICS_MEAN">2.6398096493155</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">0.55270839809802</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

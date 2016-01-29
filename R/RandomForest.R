@@ -3,7 +3,7 @@ RFfunction <- function(groundtruth, hyper)
 	
 	NAvalue(hyper) <- 0
 	# Get the vector of polygon class
-	classes <- spdf$class
+	classes <- groundtruth$class
 	# Extract training data from the brick
 	trainingDf <- extract(hyper, groundtruth, df = TRUE) %>%
 		mutate(class = classes[ID]) %>%
